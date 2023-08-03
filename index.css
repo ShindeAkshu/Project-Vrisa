@@ -1,0 +1,185 @@
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+    
+}
+
+.max-width{
+    max-width: 1510px;
+}
+.about, .services, .work, .contact{
+    font-family: 'RF Dewi Extend';
+}
+
+header{
+    justify-content:center;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+ .logo{
+    width: 150px;
+    height: 64px;
+    margin-top: 45px; 
+    margin-left: 80px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin-top: 53px;
+    
+}
+
+nav ul li a {
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+ color: #6B6B6B;    
+}
+
+
+
+.btn.dark{
+    background: linear-gradient(0deg, #181818, #181818);
+    color:#F4F3EF; 
+    gap: 10px;
+    padding: 10px 29px 10px 30px;
+    border-radius: 40px;
+    width:225px;
+    height: 49px;
+    border: 1px; 
+    font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;  
+}
+
+.btn.dark::after{
+    content: url("Images/Images/arrow.png");
+    margin-left: 10px;
+}
+
+.btn.dark:hover{
+    color: #F4F3EF;
+}
+.btn.light{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left; 
+    width: 350px;
+    height: 69px;
+    padding: 20px 89px 20px 45px;
+    border-radius: 40px;
+    gap: 10px;    
+    border:1px solid #181818;   
+}
+ 
+
+.btn.light::after{
+    content:url('Images/Images/blackarrow.png');
+    position: absolute;
+     margin-left: 10px;
+}
+
+nav ul li a:hover{
+    color: #181818;
+    text-decoration: none;
+    
+}
+
+h1{
+    font-family: Alfa Slab One;
+font-size: 42px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.container.section-2{
+    width: 1279px;
+    height: 655.69384765625px;
+    top: 1184px;
+    left: 117px;
+    
+}
+.title{
+    width: 388px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.part-1{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.part-2{
+    font-family: RF Dewi Extended;
+    color: #4E4D4D;
+    font-size: 18px;
+    font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.col.star{
+    
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.col.star::before{
+    content:url(Images/Images/Union.png);
+    margin-right: 10px;
+}
+
+.btn.light-2{
+    width:649px;
+    height:69px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left; 
+    padding: 20px 89px 20px 45px;
+    border-radius: 40px;
+    gap: 10px;    
+    border:1px solid #181818;
+}
+
+.btn.light-2::after{
+    content:url('Images/Images/blackarrow.png');
+    
+     margin-left: 10px;
+}
+
