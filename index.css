@@ -78,7 +78,7 @@ text-align: left;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0em;
-    text-align: left; 
+    text-align: center; 
     width: 350px;
     height: 69px;
     padding: 20px 89px 20px 45px;
@@ -164,13 +164,13 @@ text-align: left;
 }
 
 .btn.light-2{
-    width:649px;
+    width:600px;
     height:69px;
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left; 
+
+    text-align:center; 
     padding: 20px 89px 20px 45px;
     border-radius: 40px;
     gap: 10px;    
@@ -179,7 +179,24 @@ text-align: left;
 
 .btn.light-2::after{
     content:url('Images/Images/blackarrow.png');
-    
+    position: absolute;
      margin-left: 10px;
+}
+
+.card
+{
+    width: 238px;
+    height: 392px;
+    border-radius: 30px;
+
+}
+
+.container.headline{
+    
+    font-size: 48px;
+    font-weight: 800;  
+    line-height: 58px;
+    text-align: center;
+
 }
 
